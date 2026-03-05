@@ -17,6 +17,8 @@ body {
     padding: 20px;
 }
 .nav {
+    display: flex;
+    justify-content: center;
     background: #444;
     color: white;
     padding: 15px;
@@ -29,6 +31,7 @@ body {
     font-weight: bold;
 }
 .main {
+    display: flex;
     padding: 20px;
     gap: 20px;
 }
@@ -38,6 +41,8 @@ body {
     width: 25%;
 }
 .content {
+    display: flex;
+    flex-direction: column;
     background: #ddd;
     padding: 20px;
     gap: 20px;
@@ -48,10 +53,13 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .card-container {
+    display: flex;
+    flex-wrap: wrap;  
     gap: 15px;
     width: 100%;
 }
 .card {
+    
     background: white;
     padding: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
